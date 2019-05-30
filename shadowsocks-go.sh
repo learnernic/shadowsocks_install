@@ -13,6 +13,7 @@ echo
 cur_dir=`pwd`
 # Stream Ciphers
 ciphers=(
+aes-256-gcm
 aes-256-cfb
 aes-192-cfb
 aes-128-cfb
@@ -20,6 +21,7 @@ aes-256-ctr
 aes-192-ctr
 aes-128-ctr
 chacha20-ietf
+chacha20-ietf-poly1305
 chacha20
 salsa20
 rc4-md5
